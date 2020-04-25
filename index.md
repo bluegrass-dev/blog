@@ -1,14 +1,12 @@
 ---
 layout: default
-title: Home
+title: Howdy
 nav_order: 1
 description: "An unbridled spirit in software."
 permalink: /
 ---
 
-## About
-
-Howdy, folks -
+## Howdy, folks -
 
 I'm CJ Taylor, an [`unbridled spirit`](https://kentucky.gov/about/pages/unbridledspirit.aspx) in The Bluegrass State of Kentucky. I've been playing digital [`LEGO`](https://www.lego.com/en-us) as a Software Engineer since 2010 and spend most of my time these days in [`Amazon Web Services`](https://aws.amazon.com/).
 
