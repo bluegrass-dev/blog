@@ -29,13 +29,15 @@
   }
 
   function addGTM() {
-    var body = document.getElementsByTagName("body");
-    var gtmHtml =
-      '<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K74TLQP"';
-    gtmHtml +=
-      'height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>';
-
-    body.innerHtml = gtmHtml + body.innerHtml;
+    var noscriptElement = document.createElement("noscript");
+    var iframeElement = document.createElement("iframe");
+    iframeElement.src =
+      "https://www.googletagmanager.com/ns.html?id=GTM-K74TLQP";
+    iframeElement.style = "display:none;visibility:hidden";
+    iframeElement.width = "0";
+    iframeElement.height = "0";
+    noscriptElement.appendChild(iframeElement);
+    document.body.prepend(noscriptElement);
   }
 
   bgd.onReady(function () {
