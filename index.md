@@ -10,9 +10,9 @@ permalink: /
 
 Howdy, folks -
 
-I'm CJ Taylor, an [`unbridled spirit`](https://kentucky.gov/about/pages/unbridledspirit.aspx) in The Bluegrass State of Kentucky. I've been playing digital legos as a Software Engineer since 2010 and spend most of my time these days in Amazon Web Services.
+I'm CJ Taylor, an [`unbridled spirit`](https://kentucky.gov/about/pages/unbridledspirit.aspx) in The Bluegrass State of Kentucky. I've been playing digital [`LEGO`](https://www.lego.com/en-us) as a Software Engineer since 2010 and spend most of my time these days in [`Amazon Web Services`](https://aws.amazon.com/).
 
-I'm a glutton for solving problems and helping others pick up strategies and technologies to ease their workflow. I hope to make this place a treasure trove for those looking to know what I'm up to or researching.
+I'm a glutton for solving problems and helping others pick up strategies and technologies to ease their workflow. I hope to make this place a treasure trove for those looking to know what I'm up to, researching, or hackin' on.
 
 I hope you enjoy what wacky bits get stashed here over time, and if you'd like to chat, feel free to reach out!
 
