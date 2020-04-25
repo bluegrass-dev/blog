@@ -62,7 +62,7 @@ color_scheme: dark
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
-# ga_tracking: UA-164583511-1
+ga_tracking: UA-164583511-1
 
 plugins:
   - jekyll-seo-tag

@@ -22,18 +22,24 @@
       ) {
         a[i].onclick = function () {
           var target = this.href.replace(/^https:\/\//i, "");
-          var source = window.location.href.replace(/^https:\/\//i, "");
-
-          gtag("event", "page_view", {
-            source: source,
-            target: target,
-          });
+          gtag({ event: "outbound_link", target: target });
         };
       }
     }
   }
 
+  function addGTM() {
+    var body = document.getElementsByTagName("body");
+    var gtmHtml =
+      '<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K74TLQP"';
+    gtmHtml +=
+      'height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>';
+
+    body.innerHtml = gtmHtml + body.innerHtml;
+  }
+
   bgd.onReady(function () {
     initGA();
+    addGTM();
   });
 })((window.bgd = window.bgd || {}));
