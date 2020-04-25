@@ -2,7 +2,7 @@
 layout: default
 title: Howdy
 nav_order: 1
-description: "An unbridled spirit in software."
+description: "An unbridled spirit that gallops about software."
 permalink: /
 ---
 
