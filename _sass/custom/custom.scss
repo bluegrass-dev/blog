@@ -61,8 +61,9 @@
 //$body-heading-color: $grey-dk-300;
 //$search-result-preview-color: $grey-dk-000;
 //$nav-child-link-color: $grey-dk-100;
-$blue-000: #00614c;
-// $link-color: #00614c;
+
+$blue-000: #00614c; // required override for dark mode since $link-color didn't work as-is
+$link-color: #00614c; // override for light mode
 // $btn-primary-color: #00614c;
 //$base-button-color: #f7f7f7;
 
