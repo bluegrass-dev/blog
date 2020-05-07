@@ -28,14 +28,16 @@ Howdy, folks -
 
 Personal branding isn't something I've thought much about in the past. I'm one that believes consistent actions speak for themselves. But with an upcoming commitment to speak at, it dawned on me that I have no consolidated place for folks to go!
 
-```
+---
+
 Hope you like the talk and if you want to find out more, check out:
 
 - All the code for this presentation found in <https://www.github.com/cj-taylor/$INSERT_NAME_OF_REPO_MADE_WHEN_YOU_ACTUALLY_WORK_ON_IT>
 - Let's roll our faces on keyboards to make code together via github.com/cj-taylor
 - Let's be professionals together via <https://www.linkedin.com/in/cj-taylor/>
 - Let's make bird noises together via <https://twitter.com/BluegrassDevCJ>
-```
+
+---
 
 Excellent user experience, right? Not in my mind. I got motivated to create a single place where folks can deep-link to specific events, all the needful call-to-actions, and opportunities to share more on how the presentation came to be and evolved. I was left with an itch in my brain, saying, "figure it out, you'll thank yourself later!" So, onto ideas, we go!
 
@@ -118,9 +120,11 @@ Goal: Github Pages, update via commit a minimal content focused website.
 
 Seeing as my target was to provide more text-centric content, it felt like a good "documentation" experience would be nice.
 
-```
+---
+
 Github Pages "Just the docs" Jekyll theme demo: <https://pmarsceill.github.io/just-the-docs/>
-```
+
+---
 
 Excitingly enough, Github's supports the ability to reference a ["remote theme"](https://github.blog/2017-11-29-use-any-theme-with-github-pages/)
 
