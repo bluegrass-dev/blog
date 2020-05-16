@@ -15,6 +15,8 @@ permalink: /talks/from-aws-elastic-beanstalk-to-eks
 - [`Presentation code`](https://github.com/bluegrass-dev/talk-from-elasticbeanstalk-to-eks)
 - [`Meetup Details: Kubernetes-and-Cloud-Native-Computing-Louisville`](https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/events/cdrwlrybchbkb/)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z-2ofRWXYdc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Overview
 
 What could it look like to experiment with an existing application running on AWS ElasticBeansatlk over to AWS EKS using modern tools?
