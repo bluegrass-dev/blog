@@ -7,5 +7,3 @@ permalink: /projects
 ---
 
 ## Projects
-
-Over time, I'll add my escapades here.
