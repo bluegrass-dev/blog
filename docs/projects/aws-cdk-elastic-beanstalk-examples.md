@@ -72,11 +72,11 @@ CreatingAnApplicationStack: destroying...
 
 ### AWS ElasticBeanstalk Application
 
-![AWS ElasticBeanstalk Application](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/assets/01-elastic-beanstalk-console.png)
+![AWS ElasticBeanstalk Application](https://raw.githubusercontent.com/bluegrass-dev/cdk-elastic-beanstalk-examples/master/assets/01-elastic-beanstalk-console.png)
 
 ### AWS CloudFormation Console
 
-![AWS CloudFormation Console](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/assets/01-cloudformation-console.png)
+![AWS CloudFormation Console](https://raw.githubusercontent.com/bluegrass-dev/cdk-elastic-beanstalk-examples/master/assets/01-cloudformation-console.png)
 
 </p>
 </details>
@@ -142,15 +142,15 @@ CreatingAnEnvironmentStack: destroying...
 
 ### AWS ElasticBeanstalk Application
 
-![AWS ElasticBeanstalk Application](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/assets/02-elastic-beanstalk-console.png)
+![AWS ElasticBeanstalk Application](https://raw.githubusercontent.com/bluegrass-dev/cdk-elastic-beanstalk-examples/master/assets/02-elastic-beanstalk-console.png)
 
 ### AWS CloudFormation Console
 
-![AWS CloudFormation Console](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/assets/02-cloudformation-console.pngd)
+![AWS CloudFormation Console](https://raw.githubusercontent.com/bluegrass-dev/cdk-elastic-beanstalk-examples/master/assets/02-cloudformation-console.png)
 
 ### The running application
 
-![Running application](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/assets/02-running-application.png)
+![Running application](https://raw.githubusercontent.com/bluegrass-dev/cdk-elastic-beanstalk-examples/master/assets/02-running-application.png)
 
 ## [`03-environment-using-spot-instances`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/03-environment-using-spot-instances/)
 
@@ -211,7 +211,7 @@ EnvironmentUsingSpotInstancesStack: destroying...
 
 ### AWS ElasticBeanstalk Environment Capacity Options
 
-![AWS ElasticBeanstalk Application](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/assets/03-elastic-beanstalk-console-capacity-options.png)
+![AWS ElasticBeanstalk Application](https://raw.githubusercontent.com/bluegrass-dev/cdk-elastic-beanstalk-examples/master/assets/03-elastic-beanstalk-console-capacity-options.png)
 
 ## [`04-multiple-environments`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/04-multiple-environments/)
 
@@ -293,7 +293,7 @@ ApplicationStack: destroying...
 
 ### AWS ElasticBeanstalk Environments
 
-![AWS ElasticBeanstalk Application](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/assets/04-elastic-beanstalk-multiple-environments.png)
+![AWS ElasticBeanstalk Application](https://raw.githubusercontent.com/bluegrass-dev/cdk-elastic-beanstalk-examples/master/assets/04-elastic-beanstalk-multiple-environments.png)
 
 ## [`05-pipeline-to-single-environment`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/05-pipeline-to-single-environment/)
 
