@@ -9,6 +9,7 @@ has_toc: true
 ---
 
 - [Overview](#overview)
+  - [Setting up](#setting-up)
   - [`01-creating-an-application`](#01-creating-an-application)
     - [AWS ElasticBeanstalk Application](#aws-elasticbeanstalk-application)
     - [AWS CloudFormation Console](#aws-cloudformation-console)
@@ -30,6 +31,19 @@ has_toc: true
 In this repository is a public learning effort gradually ramping up toward full SDLC of an application backed by AWS ElasticBeanstalk.
 
 Notably, AWS CDK has L1 [`constructs`](https://docs.aws.amazon.com/cdk/latest/guide/constructs.html) for [`AWS ElasticBeanstalk`](https://docs.aws.amazon.com/cdk/api/latest/typescript/api/aws-elasticbeanstalk.html). My hope is to take what exists today in AWS CDK as far as it can go, and organically find what L2/L3 constructs for AWS ElasticBeanstalk that could benefit the community.
+
+## Setting up
+
+```bash
+# Get the code
+git clone git@github.com:bluegrass-dev/aws-cdk-elastic-beanstalk-examples.git
+cd aws-cdk-elastic-beanstalk-examples
+
+# Install nvm - https://github.com/nvm-sh/nvm#install--update-script
+
+# install NodeJS LTS
+nvm install --lts
+```
 
 ## [`01-creating-an-application`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/01-creating-an-application/lib/01-creating-an-application-stack.ts)
 
