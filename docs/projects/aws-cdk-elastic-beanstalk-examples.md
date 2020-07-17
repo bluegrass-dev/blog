@@ -19,8 +19,8 @@ Notably, AWS CDK has L1 [`constructs`](https://docs.aws.amazon.com/cdk/latest/gu
 
 AWS Elastic Beanstalk has a concept of an Application that houses multiple environments. Here, we create that Application, that really doesn't do much for us, but is a great start!
 
-- [`AWS CDK App`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/01-creating-an-application/bin/01-creating-an-application..ts)
-- [`Underlying stack`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/01-creating-an-application/lib/01-creating-an-application-stack..ts)
+- [`AWS CDK App`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/01-creating-an-application/bin/01-creating-an-application.ts)
+- [`Underlying stack`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/01-creating-an-application/lib/01-creating-an-application-stack.ts)
 
 <details><summary>Steps + Shell Output</summary>
 <p>
@@ -256,8 +256,8 @@ Alright, we have our Application and Environment in place, but what's it look li
 
 🚨🚨 Spoiler alert: we can make a parameterized stack and instantiate multiple! 🚨🚨
 
-- [`AWS CDK App`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/04-multiple-environments/bin/04-multiple-environments..ts)
-- [`Underlying stacks`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/04-multiple-environments/lib/04-multiple-environments-stack..ts)
+- [`AWS CDK App`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/04-multiple-environments/bin/04-multiple-environments.ts)
+- [`Underlying stacks`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/04-multiple-environments/lib/04-multiple-environments-stack.ts)
 
 <details><summary>Steps + Shell Output</summary>
 <p>
