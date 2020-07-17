@@ -5,6 +5,7 @@ parent: Projects
 nav_order: 1
 description: "Explorations into what can be done via AWS CDK toward AWS Elastic Beanstalk.."
 permalink: /projects/aws-cdk-elastic-beanstalk-examples
+has_toc: true
 ---
 
 ## Overview
@@ -21,9 +22,6 @@ AWS Elastic Beanstalk has a concept of an Application that houses multiple envir
 
 - [`AWS CDK App`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/01-creating-an-application/bin/01-creating-an-application.ts)
 - [`Underlying stack`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/01-creating-an-application/lib/01-creating-an-application-stack.ts)
-
-<details><summary>Steps + Shell Output</summary>
-<p>
 
 ```bash
 ▶ cd 01-creating-an-application
@@ -43,7 +41,6 @@ Tests:       1 passed, 1 total
 Snapshots:   0 total
 Time:        1.664s, estimated 3s
 Ran all test suites.
-
 
 # 🚢 it!
 ▶ npm run cdk deploy
@@ -70,16 +67,8 @@ arn:aws:cloudformation:us-west-2:140483673113:stack/CreatingAnApplicationStack/d
 Are you sure you want to delete: CreatingAnApplicationStack (y/n)? y
 CreatingAnApplicationStack: destroying...
 
-
-
  ✅  CreatingAnApplicationStack: destroyed
 ```
-
-</p>
-</details>
-
-<details><summary>AWS Console Images</summary>
-<p>
 
 ### AWS ElasticBeanstalk Application
 
@@ -98,9 +87,6 @@ Next, let's create an AWS ElasticBeanstalk Application again, then create a sing
 
 - [`AWS CDK App`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/02-creating-an-environment/bin/02-creating-an-environment.ts)
 - [`Underlying stacks`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/02-creating-an-environment/lib/02-creating-an-environment-stack.ts)
-
-<details><summary>Steps + Shell Output</summary>
-<p>
 
 ```bash
 ▶ cd 02-creating-an-environment
@@ -154,12 +140,6 @@ CreatingAnEnvironmentStack: destroying...
  ✅  CreatingAnEnvironmentStack: destroyed
 ```
 
-</p>
-</details>
-
-<details><summary>AWS Console Images</summary>
-<p>
-
 ### AWS ElasticBeanstalk Application
 
 ![AWS ElasticBeanstalk Application](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/assets/02-elastic-beanstalk-console.png)
@@ -172,18 +152,12 @@ CreatingAnEnvironmentStack: destroying...
 
 ![Running application](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/assets/02-running-application.png)
 
-</p>
-</details>
-
 ## [`03-environment-using-spot-instances`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/03-environment-using-spot-instances/)
 
 Let's be cost conscious and create our Environments utilizing AWS EC2 Spot Instances through the native support via AWS ElasticBeanstalk!
 
 - [`AWS CDK App`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/03-environment-using-spot-instances/bin/03-environment-using-spot-instances.ts)
 - [`Underlying stacks`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/03-environment-using-spot-instances/lib/03-environment-using-spot-instances-stack.ts)
-
-<details><summary>Steps + Shell Output</summary>
-<p>
 
 ```bash
 ▶ cd 03-environment-using-spot-instances
@@ -216,8 +190,6 @@ EnvironmentUsingSpotInstancesStack: deploying...
 EnvironmentUsingSpotInstancesStack: creating CloudFormation changeset...
 [██████████████████████████████████████████████████████████] (4/4)
 
-
-
  ✅  EnvironmentUsingSpotInstancesStack
 
 Stack ARN:
@@ -237,18 +209,9 @@ EnvironmentUsingSpotInstancesStack: destroying...
 
 ```
 
-</p>
-</details>
-
-<details><summary>AWS Console Images</summary>
-<p>
-
 ### AWS ElasticBeanstalk Environment Capacity Options
 
 ![AWS ElasticBeanstalk Application](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/assets/03-elastic-beanstalk-console-capacity-options.png)
-
-</p>
-</details>
 
 ## [`04-multiple-environments`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/04-multiple-environments/)
 
@@ -258,9 +221,6 @@ Alright, we have our Application and Environment in place, but what's it look li
 
 - [`AWS CDK App`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/04-multiple-environments/bin/04-multiple-environments.ts)
 - [`Underlying stacks`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/04-multiple-environments/lib/04-multiple-environments-stack.ts)
-
-<details><summary>Steps + Shell Output</summary>
-<p>
 
 ```bash
 ▶ cd 04-multiple-environments
@@ -331,18 +291,9 @@ ApplicationStack: destroying...
  ✅  ApplicationStack: destroyed
 ```
 
-</p>
-</details>
-
-<details><summary>AWS Console Images</summary>
-<p>
-
 ### AWS ElasticBeanstalk Environments
 
 ![AWS ElasticBeanstalk Application](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/assets/04-elastic-beanstalk-multiple-environments.png)
-
-</p>
-</details>
 
 ## [`05-pipeline-to-single-environment`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/05-pipeline-to-single-environment/)
 
@@ -350,9 +301,6 @@ Up to here, we have an Application with multiple Environments, but we want to be
 
 - [`AWS CDK App`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/05-pipeline-to-single-environment/bin/05-pipeline-to-single-environment.ts)
 - [`Underlying stacks`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/05-pipeline-to-single-environment/lib/05-pipeline-to-single-environment-stack.ts)
-
-<details><summary>Steps + Shell Output</summary>
-<p>
 
 ```bash
 ▶ cd 05-pipeline-to-single-environment
@@ -372,15 +320,6 @@ Up to here, we have an Application with multiple Environments, but we want to be
 
 ```
 
-</p>
-</details>
-
-<details><summary>AWS Console Images</summary>
-<p>
-
 ### AWS CodePipeline
 
 TODO
-
-</p>
-</details>
