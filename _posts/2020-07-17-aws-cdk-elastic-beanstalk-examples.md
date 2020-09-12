@@ -3,7 +3,7 @@ layout: post
 title: AWS CDK Elastic Beanstalk Examples
 description: "Explorations into what can be done via AWS CDK toward AWS Elastic Beanstalk.."
 # permalink: /projects/aws-cdk-elastic-beanstalk-examples
-topics: [AWS, CDK, Elastic Beanstalk, projects]
+categories: [AWS, CDK, Elastic Beanstalk, projects]
 excerpt: "Explorations of the AWS CDK kind into AWS ElasticBeanstalk from scratch."
 ---
 

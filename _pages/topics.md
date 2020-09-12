@@ -6,15 +6,15 @@ title: Topics
 
 
 <div id="archives">
-{% for topic in site.topics %}
+{% for category in site.categories %}
   <div class="archive-group">
-    {% capture topic_name %}{{ topic | first }}{% endcapture %}
-    <div id="#{{ topic_name | slugize }}"></div>
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div id="#{{ category_name | slugize }}"></div>
     <p></p>
     
-    <h3 class="topic-head">{{ topic_name }}</h3>
-    <a name="{{ topic_name | slugize }}"></a>
-    {% for post in site.topics[topic_name] %}
+    <h3 class="category-head">{{ category_name }}</h3>
+    <a name="{{ category_name | slugize }}"></a>
+    {% for post in site.categories[category_name] %}
     <article class="archive-item">
       <h4><a href="{{ site.baseurl }}{{ post.url }}">{% if post.title and post.title != "" %}{{post.title}}{% else %}{{post.excerpt |strip_html}}{%endif%}</a></h4>
     </article>
