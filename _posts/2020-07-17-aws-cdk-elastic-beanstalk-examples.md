@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: post
 title: AWS CDK Elastic Beanstalk Examples
-parent: Projects
 description: "Explorations into what can be done via AWS CDK toward AWS Elastic Beanstalk.."
 permalink: /projects/aws-cdk-elastic-beanstalk-examples
 categories: [AWS, CDK, Elastic Beanstalk, projects]
