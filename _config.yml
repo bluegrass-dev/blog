@@ -63,7 +63,7 @@ compress_html:
 
 name: Bluegrass Dev
 
-avatar: /includes/img/covatar.png
+avatar: /_includes/img/covatar.png
 
 # Your website URL
 # Used for Sitemap.xml and your RSS feed
