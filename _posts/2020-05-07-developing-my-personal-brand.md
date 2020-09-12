@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Cooking my brand like homemade spaghetti
-description: "Cooking my  brand like homemade spaghetti."
+description: "Cooking my brand like homemade spaghetti."
 # permalink: /projects/cooking-my-personal-brand-like-spaghetti
-categories: [projects, personal-branding]
+categories: [Projects, Branding, Learning]
 excerpt: "A brain dump of how I landed on bluegrass.dev for a personal brand."
 ---
 
@@ -135,4 +135,4 @@ Following through the steps for establishing a [`Custom Domain for a Github Page
 Here's where you can see everything in action!
 
 - Github Repo: <https://github.com/bluegrass-dev/blog>
-- Website: <https://www.bluegrass.dev>
+- Website: <https://blog.bluegrass.dev>

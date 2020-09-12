@@ -3,7 +3,7 @@ layout: post
 title: AWS CDK Elastic Beanstalk Examples
 description: "Explorations into what can be done via AWS CDK toward AWS Elastic Beanstalk.."
 # permalink: /projects/aws-cdk-elastic-beanstalk-examples
-categories: [AWS, CDK, Elastic Beanstalk, projects]
+categories: [AWS, AWS CDK, AWS Elastic Beanstalk, AWS CDK Pipelines, Projects]
 excerpt: "Explorations of the AWS CDK kind into AWS ElasticBeanstalk from scratch."
 ---
 
@@ -46,7 +46,7 @@ nvm install --lts
 
 ## [`01-creating-an-application`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/01-creating-an-application/lib/01-creating-an-application-stack.ts)
 
-AWS Elastic Beanstalk has a concept of an Application that houses multiple environments. Here, we create that Application, that really doesn't do much for us, but is a great start!
+AWS Elastic Beanstalk has a concept of an Application that houses multiple environments. Here, we create that Application, that doesn't do much for us, but is a great start!
 
 - [`AWS CDK App`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/01-creating-an-application/bin/01-creating-an-application.ts)
 - [`Underlying stack`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/01-creating-an-application/lib/01-creating-an-application-stack.ts)
