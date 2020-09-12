@@ -1,0 +1,65 @@
+# remote_theme: amitmerchant1990/reverie
+title: Bluegrass Dev
+description: An unbridled spirit gettin' his nerd on in the Bluegrass.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://blog.bluegrass.dev" # the base hostname & protocol for your site, e.g. http://example.com
+
+permalink: pretty
+exclude:
+  [
+    "node_modules/",
+    "*.gemspec",
+    "*.gem",
+    "Gemfile",
+    "Gemfile.lock",
+    "package.json",
+    "package-lock.json",
+    "script/",
+    "LICENSE.txt",
+    "lib/",
+    "bin/",
+    "README.md",
+    "Rakefile",
+  ]
+
+# Google Analytics Tracking (optional)
+# e.g, UA-1234567-89
+google_analytics: UA-164583511-1
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-twitter-plugin
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+
+# Reverie settings 
+
+name: Bluegrass Dev
+
+avatar: /images/covatar.png
+
+# Your website URL
+# Used for Sitemap.xml and your RSS feed
+url: http://blog.bluegrass.dev
+enforce_ssl: https://blog.bluegrass.dev
+
+
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+# disqus: blog-bluegrass-dev.disqus.com
+
+# Includes an icon in the footer for each username you enter
+social-links:
+  email: cj.taylor@bluegrass.dev
+  github: cj-taylor
+  linkedin: cj-taylor
+  rss: rss
+  twitter: BluegrassDevCJ
+  # stackoverflow: 
+  # youtube: # channel/<your_long_string> or user/<user-name>

@@ -1,13 +1,11 @@
 ---
-layout: default
+layout: post
 title: Cooking my brand like homemade spaghetti
-parent: Posts
-nav_order: 1
-description: "Cooking my  brand like homemade spaghetti."
-permalink: /projects/cooking-my-personal-brand-like-spaghetti
+description: "Cooking my brand like homemade spaghetti."
+# permalink: /projects/cooking-my-personal-brand-like-spaghetti
+categories: [Projects, Branding, Learning]
+excerpt: "A brain dump of how I landed on bluegrass.dev for a personal brand."
 ---
-
-# Cooking my brand like homemade spaghetti
 
 {: .no_toc }
 
@@ -137,4 +135,4 @@ Following through the steps for establishing a [`Custom Domain for a Github Page
 Here's where you can see everything in action!
 
 - Github Repo: <https://github.com/bluegrass-dev/blog>
-- Website: <https://www.bluegrass.dev>
+- Website: <https://blog.bluegrass.dev>

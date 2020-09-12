@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: post
 title: AWS CDK Elastic Beanstalk Examples
-parent: Projects
-nav_order: 1
 description: "Explorations into what can be done via AWS CDK toward AWS Elastic Beanstalk.."
-permalink: /projects/aws-cdk-elastic-beanstalk-examples
-has_toc: true
+# permalink: /projects/aws-cdk-elastic-beanstalk-examples
+categories: [AWS, AWS CDK, AWS Elastic Beanstalk, AWS CDK Pipelines, Projects]
+excerpt: "Explorations of the AWS CDK kind into AWS ElasticBeanstalk from scratch."
 ---
 
 - [Overview](#overview)
@@ -26,7 +25,7 @@ has_toc: true
 
 # Overview
 
-[`AWS CDK`](https://aws.amazon.com/cdk/) enables you to codify infrastructure within a [`variety of programming languages`](https://docs.aws.amazon.com/cdk/latest/guide/work-with.html) to build resuable constructs that generate large amounts of AWS CloudFormation. The ratio of effort input vs value output is astounding.
+[`AWS CDK`](https://aws.amazon.com/cdk/) enables you to codify infrastructure within a [`variety of programming languages`](https://docs.aws.amazon.com/cdk/latest/guide/work-with.html) to build reusable constructs that generate large amounts of AWS CloudFormation. The ratio of effort input vs value output is astounding.
 
 In this repository is a public learning effort gradually ramping up toward full SDLC of an application backed by AWS ElasticBeanstalk.
 
@@ -47,7 +46,7 @@ nvm install --lts
 
 ## [`01-creating-an-application`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/01-creating-an-application/lib/01-creating-an-application-stack.ts)
 
-AWS Elastic Beanstalk has a concept of an Application that houses multiple environments. Here, we create that Application, that really doesn't do much for us, but is a great start!
+AWS Elastic Beanstalk has a concept of an Application that houses multiple environments. Here, we create that Application, that doesn't do much for us, but is a great start!
 
 - [`AWS CDK App`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/01-creating-an-application/bin/01-creating-an-application.ts)
 - [`Underlying stack`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/01-creating-an-application/lib/01-creating-an-application-stack.ts)
@@ -180,7 +179,7 @@ CreatingAnEnvironmentStack: destroying...
 
 ## [`03-environment-using-spot-instances`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/03-environment-using-spot-instances/)
 
-Let's be cost conscious and create our Environments utilizing AWS EC2 Spot Instances through the native support via AWS ElasticBeanstalk!
+Let's be cost-conscious and create our Environments utilizing AWS EC2 Spot Instances through the native support via AWS ElasticBeanstalk!
 
 - [`AWS CDK App`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/03-environment-using-spot-instances/bin/03-environment-using-spot-instances.ts)
 - [`Underlying stacks`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/03-environment-using-spot-instances/lib/03-environment-using-spot-instances-stack.ts)

@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: post
 title: From AWS Elastic Beanstalk to AWS EKS
-parent: Talks
-nav_order: 1
 description: "Exploring the path from AWS Elastic Beanstalk to EKS for a Java application."
-permalink: /talks/from-aws-elastic-beanstalk-to-eks
+# permalink: /talks/from-aws-elastic-beanstalk-to-eks
+categories: [AWS, AWS CDK, AWS Elastic Beanstalk, AWS Elastic Kubernetes Service, Talks, Meetups, Louisville]
+excerpt: "Resources for a local meetup talk that ventures into AWS CDK and CDK8s."
 ---
 
 ## From AWS Elastic Beanstalk to AWS EKS
@@ -15,7 +15,9 @@ permalink: /talks/from-aws-elastic-beanstalk-to-eks
 - [`Presentation code`](https://github.com/bluegrass-dev/talk-from-elasticbeanstalk-to-eks)
 - [`Meetup Details: Kubernetes-and-Cloud-Native-Computing-Louisville`](https://www.meetup.com/Kubernetes-and-Cloud-Native-Computing-Louisville/events/cdrwlrybchbkb/)
 
+<div styles="width: 100%; display: flex; justify-content: center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/z-2ofRWXYdc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### Overview
 
@@ -29,7 +31,7 @@ Next, we start looking at AWS CDK for using imperative code to help us do more w
 
 Lastly, we land at AWS EKS with a cluster created via AWS CDK, our application packaged and deployed to our cluster via AWS CDK.
 
-An an extra bit, AWS CDK8S is stubbed out as a potential for future exploration of codifying our Kubernetes Resources.
+As an extra bit, AWS CDK8S is stubbed out as a potential for future exploration of codifying our Kubernetes Resources.
 
 ### Meetup details
 
@@ -50,6 +52,6 @@ AWS - AWS CodePipeline, AWS CodeBuild, AWS Elastic Beanstalk, AWS Elastic Contai
 
 Outputs
 
-- [Presenation Material](https://www.bluegrass.dev/talks/from-aws-elastic-beanstalk-to-eks)
+- [Presenation Material](https://blog.bluegrass.dev/from-aws-elastic-beanstalk-to-eks)
 
-Speaker bio: CJ Taylor - www.blugrass.dev
+Speaker bio: CJ Taylor - blog.blugrass.dev
