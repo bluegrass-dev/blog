@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About
+title: Howdy
 permalink: /howdy/
 ---
 
-Howdy, folks - 
+**Howdy, folks -** 
 
 I'm CJ Taylor, an [`unbridled spirit`](https://kentucky.gov/about/pages/unbridledspirit.aspx) in The Bluegrass State of Kentucky. I've been playing digital [`LEGO`](https://www.lego.com/en-us) in Software Engineering since 2010 in a variety of roles and spend most of my time these days in [`Amazon Web Services`](https://aws.amazon.com/).
 
@@ -14,7 +14,8 @@ I'm a glutton for solving problems and helping others pick up strategies or tech
 
 I hope you enjoy what wacky bits get stashed here over time, and if you'd like to chat, feel free to reach out!
 
-Cheers,
-CJ Taylor - Bluegrass Dev
+**Cheers,**
+
+**CJ Taylor - Bluegrass Dev**
 
 
