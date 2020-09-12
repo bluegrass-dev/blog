@@ -25,7 +25,7 @@ excerpt: "Explorations of the AWS CDK kind into AWS ElasticBeanstalk from scratc
 
 # Overview
 
-[`AWS CDK`](https://aws.amazon.com/cdk/) enables you to codify infrastructure within a [`variety of programming languages`](https://docs.aws.amazon.com/cdk/latest/guide/work-with.html) to build resuable constructs that generate large amounts of AWS CloudFormation. The ratio of effort input vs value output is astounding.
+[`AWS CDK`](https://aws.amazon.com/cdk/) enables you to codify infrastructure within a [`variety of programming languages`](https://docs.aws.amazon.com/cdk/latest/guide/work-with.html) to build reusable constructs that generate large amounts of AWS CloudFormation. The ratio of effort input vs value output is astounding.
 
 In this repository is a public learning effort gradually ramping up toward full SDLC of an application backed by AWS ElasticBeanstalk.
 
@@ -179,7 +179,7 @@ CreatingAnEnvironmentStack: destroying...
 
 ## [`03-environment-using-spot-instances`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/03-environment-using-spot-instances/)
 
-Let's be cost conscious and create our Environments utilizing AWS EC2 Spot Instances through the native support via AWS ElasticBeanstalk!
+Let's be cost-conscious and create our Environments utilizing AWS EC2 Spot Instances through the native support via AWS ElasticBeanstalk!
 
 - [`AWS CDK App`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/03-environment-using-spot-instances/bin/03-environment-using-spot-instances.ts)
 - [`Underlying stacks`](https://github.com/bluegrass-dev/cdk-elastic-beanstalk-examples/blob/master/03-environment-using-spot-instances/lib/03-environment-using-spot-instances-stack.ts)
