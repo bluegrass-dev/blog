@@ -17,7 +17,7 @@ remote_theme: pmarsceill/just-the-docs
 title: Bluegrass Dev
 description: Hackin' on projects from the Bluegrass
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://www.bluegrass.dev" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.bluegrass.dev" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude:
