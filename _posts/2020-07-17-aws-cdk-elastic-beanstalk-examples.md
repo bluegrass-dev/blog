@@ -2,10 +2,9 @@
 layout: default
 title: AWS CDK Elastic Beanstalk Examples
 parent: Projects
-nav_order: 1
 description: "Explorations into what can be done via AWS CDK toward AWS Elastic Beanstalk.."
 permalink: /projects/aws-cdk-elastic-beanstalk-examples
-has_toc: true
+categories: [AWS, CDK, Elastic Beanstalk, projects]
 ---
 
 - [Overview](#overview)

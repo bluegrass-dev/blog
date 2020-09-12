@@ -1,9 +1,7 @@
 ---
-layout: default
-title: Howdy
-nav_order: 1
-description: "An unbridled spirit that gallops around the open fields of software"
-permalink: /
+layout: page
+title: About
+permalink: /about/
 ---
 
 ## Howdy, folks -

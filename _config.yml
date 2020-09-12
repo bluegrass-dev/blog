@@ -1,6 +1,6 @@
 remote_theme: amitmerchant1990/reverie
 title: Bluegrass Dev
-description: Hackin' on projects from the Bluegrass
+description: An unbridled spirit gettin' his nerd on in the Bluegrass.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://blog.bluegrass.dev" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -26,28 +26,26 @@ exclude:
 #logo: "/assets/images/just-the-docs.png"
 
 # Enable or disable the site search
-search_enabled: true
+# search_enabled: true
 
 # Set the search token separator for hyphenated-word search:
-search_tokenizer_separator: /[\s/]+/
+# search_tokenizer_separator: /[\s/]+/
 
 # Enable or disable heading anchors
-heading_anchors: true
+# heading_anchors: true
 
 # Aux links for the upper right navigation
-aux_links:
-  "Bluegrass Dev on GitHub":
-    - "//github.com/bluegrass-dev"
+# aux_links:
+  # "Bluegrass Dev on GitHub":
+    # - "//github.com/bluegrass-dev"
 
 # Footer content appears at the bottom of every page's main content
-footer_content: 'Copyright &copy; 2020 CJ Taylor. Distributed by an <a href="https://github.com/bluegrass-dev/blog/tree/master/LICENSE.txt">MIT license.</a>'
+# footer_content: 'Copyright &copy; 2020 CJ Taylor. Distributed by an <a href="https://github.com/bluegrass-dev/blog/tree/master/LICENSE.txt">MIT license.</a>'
 
-# Color scheme currently only supports "dark" or nil (default)
-color_scheme: dark
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
-ga_tracking: UA-164583511-1
+google_analytics: UA-164583511-1
 
 plugins:
   - jekyll-seo-tag
@@ -60,3 +58,29 @@ compress_html:
   startings: []
   blanklines: false
   profile: false
+
+# Reverie settings 
+
+name: Bluegrass Dev
+
+avatar: /includes/img/covatar.png
+
+# Your website URL
+# Used for Sitemap.xml and your RSS feed
+url: http://blog.bluegrass.dev
+enforce_ssl: https://blog.bluegrass.dev
+
+
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+# disqus: blog-bluegrass-dev.disqus.com
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  email: cj.taylor@bluegrass.dev
+  github: cj-taylor
+  linkedin: http://linkedin.com/me/cj-taylor
+  rss: rss
+  twitter: BluegrassDevCJ
+  # stackoverflow: 
+  # youtube: # channel/<your_long_string> or user/<user-name>

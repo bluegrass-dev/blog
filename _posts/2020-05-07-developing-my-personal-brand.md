@@ -5,6 +5,7 @@ parent: Posts
 nav_order: 1
 description: "Cooking my  brand like homemade spaghetti."
 permalink: /projects/cooking-my-personal-brand-like-spaghetti
+categories: [projects, branding]
 ---
 
 # Cooking my brand like homemade spaghetti
