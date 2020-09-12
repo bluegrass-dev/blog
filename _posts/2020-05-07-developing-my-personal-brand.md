@@ -3,7 +3,7 @@ layout: post
 title: Cooking my brand like homemade spaghetti
 description: "Cooking my  brand like homemade spaghetti."
 # permalink: /projects/cooking-my-personal-brand-like-spaghetti
-categories: [projects, personal-branding]
+topics: [projects, personal-branding]
 excerpt: "A brain dump of how I landed on bluegrass.dev for a personal brand."
 ---
 
