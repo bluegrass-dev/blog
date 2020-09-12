@@ -329,6 +329,13 @@ p > img {
   }
 }
 
+div.nav-container {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
@@ -348,6 +355,7 @@ nav {
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
+    display: inline-block;
 
     @include mobile {
       margin: 0 10px;

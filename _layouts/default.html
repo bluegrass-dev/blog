@@ -27,15 +27,19 @@
               <p class="site-description">{{ site.description }}</p> 
             </div>
 
-            <nav>
-              <a href="{{ site.baseurl }}/">Home</a>
-              <a href="{{ site.baseurl }}/about">About</a>
-              <a href="{{ site.baseurl }}/topics">Topics</a>
-              <a href="{{ site.baseurl }}/search">Search</a>
-            </nav>
-            <nav>
-              {% include social-icons-nav.html %}
-            </nav>
+            <div class="nav-container">
+              <nav>
+                <div class="row">
+                  <a href="{{ site.baseurl }}/">Home</a>
+                  <a href="{{ site.baseurl }}/about">About</a>
+                  <a href="{{ site.baseurl }}/topics">Topics</a>
+                  <a href="{{ site.baseurl }}/search">Search</a>
+                </div>
+                <div class="row">
+                  {% include social-icons-nav.html %}
+                </div>
+              </nav>
+            </div>
           </header>
         </div>
       </div>
