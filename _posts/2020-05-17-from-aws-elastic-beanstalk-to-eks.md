@@ -50,6 +50,6 @@ AWS - AWS CodePipeline, AWS CodeBuild, AWS Elastic Beanstalk, AWS Elastic Contai
 
 Outputs
 
-- [Presenation Material](https://www.bluegrass.dev/talks/from-aws-elastic-beanstalk-to-eks)
+- [Presenation Material](https://blog.bluegrass.dev/from-aws-elastic-beanstalk-to-eks)
 
-Speaker bio: CJ Taylor - www.blugrass.dev
+Speaker bio: CJ Taylor - blog.blugrass.dev
