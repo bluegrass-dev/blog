@@ -2,8 +2,9 @@
 layout: post
 title: From AWS Elastic Beanstalk to AWS EKS
 description: "Exploring the path from AWS Elastic Beanstalk to EKS for a Java application."
-permalink: /talks/from-aws-elastic-beanstalk-to-eks
+# permalink: /talks/from-aws-elastic-beanstalk-to-eks
 categories: [AWS, CDK, Elastic Beanstalk, talks]
+excerpt: "Resources for a local meetup talk that ventures into AWS CDK and CDK8s."
 ---
 
 ## From AWS Elastic Beanstalk to AWS EKS
