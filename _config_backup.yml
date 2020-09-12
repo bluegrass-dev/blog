@@ -55,7 +55,7 @@ enforce_ssl: https://blog.bluegrass.dev
 # disqus: blog-bluegrass-dev.disqus.com
 
 # Includes an icon in the footer for each username you enter
-footer-links:
+social-links:
   email: cj.taylor@bluegrass.dev
   github: cj-taylor
   linkedin: cj-taylor

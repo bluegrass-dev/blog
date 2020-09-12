@@ -19,12 +19,13 @@ avatar: /images/covatar.png
 #
 
 # Includes an icon in the footer for each username you enter
-footer-links:
+social-links:
   email: cj.taylor@bluegrass.dev
   github: cj-taylor
   linkedin: cj-taylor
   rss: rss
   twitter: BluegrassDevCJ
+  twitch: BluegrassDevCJ
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
