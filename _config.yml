@@ -1,4 +1,4 @@
-remote_theme: amitmerchant1990/reverie
+# remote_theme: amitmerchant1990/reverie
 title: Bluegrass Dev
 description: An unbridled spirit gettin' his nerd on in the Bluegrass.
 baseurl: "/" # the subpath of your site, e.g. /blog
@@ -21,27 +21,6 @@ exclude:
     "README.md",
     "Rakefile",
   ]
-
-# Set a path/url to a logo that will be displayed instead of the title
-#logo: "/assets/images/just-the-docs.png"
-
-# Enable or disable the site search
-# search_enabled: true
-
-# Set the search token separator for hyphenated-word search:
-# search_tokenizer_separator: /[\s/]+/
-
-# Enable or disable heading anchors
-# heading_anchors: true
-
-# Aux links for the upper right navigation
-# aux_links:
-  # "Bluegrass Dev on GitHub":
-    # - "//github.com/bluegrass-dev"
-
-# Footer content appears at the bottom of every page's main content
-# footer_content: 'Copyright &copy; 2020 CJ Taylor. Distributed by an <a href="https://github.com/bluegrass-dev/blog/tree/master/LICENSE.txt">MIT license.</a>'
-
 
 # Google Analytics Tracking (optional)
 # e.g, UA-1234567-89
