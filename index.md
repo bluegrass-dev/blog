@@ -18,7 +18,7 @@ I hope you enjoy what wacky bits get stashed here over time, and if you'd like t
 - LinkedIn: [`CJ Taylor`](https://www.linkedin.com/in/cj-taylor/)
 - Twitter: [`@BluegrassDevCJ`](https://twitter.com/BluegrassDevCJ)
 - Twitch: [`BluegrassDev`](http://twitch.tv/BluegrassDev)
-- Email: [`Bluegrass.Dev.CJ@gmail.com`](mailto:cj.taylor@bluegrass.dev)
+- Email: [`cj.taylor@bluegrass.dev`](mailto:cj.taylor@bluegrass.dev)
 
 Cheers,
 
