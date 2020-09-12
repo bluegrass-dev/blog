@@ -63,7 +63,7 @@ compress_html:
 
 name: Bluegrass Dev
 
-avatar: /_includes/img/covatar.png
+avatar: /images/covatar.png
 
 # Your website URL
 # Used for Sitemap.xml and your RSS feed
@@ -79,7 +79,7 @@ enforce_ssl: https://blog.bluegrass.dev
 footer-links:
   email: cj.taylor@bluegrass.dev
   github: cj-taylor
-  linkedin: http://linkedin.com/me/cj-taylor
+  linkedin: cj-taylor
   rss: rss
   twitter: BluegrassDevCJ
   # stackoverflow: 
