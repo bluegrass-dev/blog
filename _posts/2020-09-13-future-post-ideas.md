@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mulling over ideas for posts from past projects and work
+title: Mulling over ideas for posts from past projects and your input
 categories: [Ideas, Projects, Book Reviews, Posts, AWS, Book Reviews, GitHub]
 excerpt: "See something you'd like to read about? Let me know!"
 ---
@@ -9,7 +9,7 @@ excerpt: "See something you'd like to read about? Let me know!"
 
 Jokes aside, there's a wide mixture of fun and dull problems solved one iteration at a time. I've liked the idea of writing more, so I'm prepping up ideas so that my efforts/interests aren't like a tree in the woods; unheard or unnoticed.
 
-I did some brainstorming yesterday, and here are some ideas I'm considering. If any catch your attention, let me know!
+After brainstorming yesterday, here are some ideas I'm considering. If any catch your attention or you have suggestions, let me know!
 
 ## Walkthroughs / Projects 
 
