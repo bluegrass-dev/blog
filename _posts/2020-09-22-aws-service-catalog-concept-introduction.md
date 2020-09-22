@@ -1,13 +1,13 @@
 ---
 layout: post
-title: AWS Service Catalog Introduction
+title: AWS Service Catalog - Concept Introduction
 categories: [AWS Service Catalog, Posts, Introduction]
-excerpt: "What's AWS Service Catalog and how can I understand or use it?"
+excerpt: "What's AWS Service Catalog and how you can understand the concept before using it."
 ---
 
 So, what's this Service Catalog thing? Well, let's visit that before we get into the technical details.
 
-## What are Service Catalog's? Example: Restaurants and made to order meals
+## What are Service Catalogs? Example: Restaurants and made to order meals
 
 Ever used a menu at a restaurant? Then, you've used a Service Catalog, conceptually, before!
 
