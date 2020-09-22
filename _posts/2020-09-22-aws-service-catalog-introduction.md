@@ -14,17 +14,15 @@ Ever used a menu at a restaurant? Then, you've used a Service Catalog, conceptua
 Restaurants have a generalized workflow.
 
 1. Customers are seated 
-2. Wait-staff takes customers' order 
-    a. Use-case: Customer uses a menu, or a Service Catalog, to choose their.
+2. Wait-staff takes customers' order
 3. Wait-staff passes customer order to the Kitchen-staff 
 4. Kitchen-staff prioritizes and cooks orders 
-    a. Use-case: Kitchen-staff cooks the meal using ingredients
 5. Kitchen-staff hands-off customer cooked meal to wait-staff
 6. Wait-staff delivers the order to the customer
 
 In this generalize workflow, I've highlighted both an internal and external use-case for a "Service Catalog" for the business
 
-### 2.a: Customer uses a menu to choose their meal
+### Step 2: Customer uses a menu to choose their meal
 
 > The pain: manually listing all meals for the customer.
 
@@ -40,7 +38,7 @@ The wait-staff is now able to seat more customers and not incur so much upfront-
 
 All possible by using a Service Catalog, err, menu!
 
-### 4.a: Kitchen-staff cooks the meal using ingredients
+### Step 4: Kitchen-staff cooks the meal using ingredients
 
 > The pain: Cook has to make everything from scratch.
 
