@@ -20,7 +20,7 @@ Restaurants have a generalized workflow.
 5. Kitchen-staff hands-off customer cooked meal to wait-staff
 6. Wait-staff delivers the order to the customer
 
-In this generalize workflow, I've highlighted both an internal and external use-case for a "Service Catalog" for the business
+In this generalized workflow, we have both an internal and external use-case for a "Service Catalog" for the business.
 
 ### Step 2: Customer uses a menu to choose their meal
 
@@ -28,11 +28,11 @@ In this generalize workflow, I've highlighted both an internal and external use-
 
 As part of the wait-staff, good luck not eventually becoming an auctioneer rattling things off quickly if you had to verbally share what meals were available to each table of customers.
 
-As the customer, imagine being hungry waiting for a long list! Uh, yeah, I'll go ahead an order desert with my appetizer...
+As the customer, imagine being hungry waiting for a long list! Uh, yeah, I'll go ahead and order desert with my appetizer...
 
 > The reliever: using a menu with predefined options.
 
-Finding the bards-tale-method a bit on the inefficient side, the restaurant uses a menu with sections/numbers/names for the custom to order from. 
+Finding the bards-tale-method a bit on the inefficient side, the restaurant uses a menu with sections/numbers/names for the customer to order from. 
 
 The wait-staff is now able to seat more customers and not incur so much upfront-investment with a table, and the customer can peruse a menu in search of exactly what they're looking for!
 
@@ -101,4 +101,4 @@ But, if you're looking to try things out, there is 1000 API calls included in th
 
 ## Next post 
 
-In a follow-up post, I'll include a walkthrough of setting up AWS Service Catalog from scratch. From Portfolio to Products with multiple versions and ultimately using AWS CodePipeline to deploy AWS CloudFormation templates as Products to the Portfolio for others to use!
+In a follow-up post, I'll include a walkthrough setting up AWS Service Catalog from scratch. From Portfolio to Products with multiple versions and ultimately using AWS CodePipeline to deploy AWS CloudFormation templates as Products to the Portfolio for others to use!
