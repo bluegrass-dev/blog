@@ -7,7 +7,7 @@ excerpt: "What's AWS Service Catalog and a way to understand the concept before 
 
 So, what's this Service Catalog thing? Well, let's visit that before we get into the technical details.
 
-## What are Service Catalogs? Example: Restaurants and made to order meals
+## Example: Restaurants and made to order meals
 
 Ever used a menu at a restaurant? Then, you've used a Service Catalog, conceptually, before!
 
@@ -56,7 +56,11 @@ In this case, your pantry is your Service Catalog where you go to get the pieces
 
 ## AWS and AWS Service Catalog
 
-AWS has [`168 services that you can use, and Forrest Brazeal can lead you in song praising them.`](https://youtu.be/BtJAsvJOlhM). 
+AWS has 168 services that you can use, and Forrest Brazeal can lead us in song praising them... 
+
+<div styles="width: 100%; display: flex; justify-content: center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BtJAsvJOlhM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 As a cook using AWS as your kitchen, you're probably not going to want to prepare to use *each* service from scratch every time. That's where recipes come in, or AWS CloudFormation Stacks.
 
@@ -80,7 +84,7 @@ _Versioning_, is how _products_ change over time. They may read the same on the 
 
 #### Cost to use 
 
-AWS Service Catalog used to be flat-rate cost service where Portfolios cost $5/month, and that was it. Now, the [`pricing model changed to be per-API call`](https://aws.amazon.com/servicecatalog/pricing/), or per action taken with the Portfolio/Products, which can make estimating cost possible with some napkin math, but utlimately cheaper for most use-cases.
+AWS Service Catalog used to be flat-rate cost service where Portfolios cost $5/month, and that was it. Now, the [`pricing model changed to be per-API call`](https://aws.amazon.com/servicecatalog/pricing/), or per action taken with the Portfolio/Products, which can make estimating cost possible with some napkin math, but ultimately cheaper for most use-cases.
 
 From the [AWS Service Catalog Pricing](https://aws.amazon.com/servicecatalog/pricing/) page, most of the calculated monthly examples end up being less than $0.50 per month.
 
