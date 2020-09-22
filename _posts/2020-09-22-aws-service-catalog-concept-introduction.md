@@ -2,7 +2,7 @@
 layout: post
 title: AWS Service Catalog - Concept Introduction
 categories: [AWS Service Catalog, Posts, Introduction, Concepts]
-excerpt: "What's AWS Service Catalog and how you can understand the concept before using it."
+excerpt: "What's AWS Service Catalog and a way to understand the concept before using it."
 ---
 
 So, what's this Service Catalog thing? Well, let's visit that before we get into the technical details.
